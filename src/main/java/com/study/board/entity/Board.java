@@ -11,7 +11,7 @@ import lombok.*;
 public class Board {
 
     @Id
-    @GeneratedValue(strategy = GenerationType. )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String title;
